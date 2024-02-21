@@ -1,41 +1,45 @@
 :root {
-    --primary-color: #ffffff;
-    --primary-color-hover: #bababa;
-    --secondary-color: #610000;
-    --tertiary-color: #222;
-    --cuarter-color: #111;
-    --font: "Sophia";
-  }
-  
-  @font-face {
-    font-family: "Sophia";
-    src: url(/Assets/Fonts/sophia_6/Sophia.ttf);
-  }
-  
-  html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-  }
-  
-  *,
-  *::after,
-  *::before {
-    box-sizing: inherit;
-  }
-  
-  body {
-    font-size: 16px;
-    font-family: var(--font), "Times New Roman", Times, serif;
-    margin: 0;
-    background-color: var(--cuarter-color);
-  }
+  --primary-color: #ffffff;
+  --primary-color-hover: #bababa;
+  --secondary-color: #610000;
+  --tertiary-color: #222;
+  --cuarter-color: #111;
+  --font: "Sophia";
+}
 
-  svg{
-width: 1rem;
-  }
+@font-face {
+  font-family: "Sophia";
+  src: url(/Assets/Fonts/sophia_6/Sophia.ttf);
+}
 
-  /* nav bar */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--font), "Times New Roman", Times, serif;
+  margin: 0;
+  background-color: var(--cuarter-color);
+}
 
 
-  
- 
+/* nav bar */
+
+.nav-bar{
+  width: 100%;
+  color: var(--primary-color);
+}
+
+.nav-logo{
+  width: 2rem;
+  height: 2rem;
+}
+
