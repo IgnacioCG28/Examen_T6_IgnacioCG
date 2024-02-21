@@ -24,5 +24,16 @@ function createGallery() {
         gallery.appendChild(image);
     }
 }  
- 
+
+function showImage(id) {
+    const image = document.createElement('picture');
+    image.innerHTML = `
+    <source srcset="Assets/Images/BigImages/${id}.jpg" type="image/jpg">
+    <source srcset="Assets/Images/BigImages/${id}.webp" type="image/webp">
+    <source srcset="Assets/Images/BigImages/${id}.avif" type="image/avif">
+    <img loading="lazy" width="200" height="300" src="Assets/Images/BigImages/${id}.jpg" alt="Film image">
+`;
+
+const overlay = document.createElement('div')
+   
 
