@@ -50,20 +50,22 @@ img {
 }
 
 .nav-logo {
+  cursor: pointer;
   position: absolute;
   top: 3rem;
   left: 6rem;
   width: 5rem;
   height: 5rem;
-  cursor: pointer;
+  
 }
 
 .nav-list {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
   flex-direction: row;
   justify-content: flex-end;
   margin: 0;
-  font-size: 3rem;
-  font-family: "Times New Roman", Times, serif;
+  
   list-style: none;
   text-align: center;
 }
