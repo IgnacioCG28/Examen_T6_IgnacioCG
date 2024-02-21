@@ -93,13 +93,14 @@ img {
   max-height: 70rem;
   min-height: 50rem;
   overflow: hidden;
-  margin-bottom: 30rem;
+  margin-bottom: 20rem;
 
   video {
     width: auto;
     display: block;
     z-index: 0;
     filter: brightness(0.5);
+    background: linear-gradient(270deg, rgba(17, 17, 17, 0.5) 0%, rgba(223, 3, 3, 0.3) 100%);
   }
 }
 
