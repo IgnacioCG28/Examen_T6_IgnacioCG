@@ -2,6 +2,7 @@
   --primary-color: #ffffff;
   --primary-color-hover: #bababa;
   --secondary-color: #610000;
+  --secondary-color-alter:#e30000;
   --tertiary-color: #222;
   --cuarter-color: #111;
   --font: "Sophia";
@@ -29,9 +30,6 @@ body {
   margin: 0;
   background-color: var(--cuarter-color);
 }
-
-
-/* nav bar */
 
 img {
   max-width: 100%;
@@ -175,7 +173,7 @@ img {
 
   picture {
     display: block;
-    max-width: 60rem;
+    max-width: 40rem;
   }
 
   img{
@@ -184,14 +182,14 @@ img {
 }
 
 .close-btn {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color-alter);
   place-items: center;
   border-radius: 50%;
   font-weight: bold;
   color: var(--cuarter-color);
   display: grid;
-  height: 4rem;
-  width: 4rem;
+  height: 5rem;
+  width: 5rem;
 }
 
 .close-btn:hover {

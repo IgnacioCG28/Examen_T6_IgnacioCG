@@ -43,9 +43,20 @@ overlay.onclick = function() {
     overlay.remove();
 }
 
+const closeModalBtn = document.createElement('P');
+closeModalBtn.textContent = 'X';
+closeModalBtn.classList.add('close-btn');
+closeModalBtn.onclick = function() {
+    const body = document.querySelector('body');
+    body.classList.remove('fixed-body');
+    overlay.remove();
+}
+overlay.appendChild(closeModalBtn);
 const body = document.querySelector('body');
 body.appendChild(overlay);
 body.classList.add('fixed-body');
+
+
 } 
 
 
