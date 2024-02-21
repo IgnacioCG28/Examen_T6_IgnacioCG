@@ -43,5 +43,10 @@ overlay.onclick = function() {
     overlay.remove();
 }
 
-}
+const body = document.querySelector('body');
+body.appendChild(overlay);
+body.classList.add('fixed-body');
+} 
+
+
 
