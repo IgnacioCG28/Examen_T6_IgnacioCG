@@ -130,12 +130,12 @@ img {
     margin: 2rem;
   }
 }
-/* Gallery styles 
+/* Gallery styles */
 
 .gallery {
   margin-top: 10rem;
   padding: 5rem 0;
-  border: 0.5rem solid black;
+  border: 0.5rem solid #000;
   background-color: var(--cuarter-color);
 
   h2 {
@@ -197,7 +197,7 @@ img {
 .close-btn:hover {
   cursor: pointer;
 }
-*/
+
 
 /* Footer */
 .foot {
