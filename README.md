@@ -1,2 +1,2 @@
-Exámen T6
+# Exámen T6
 **Autor**: Ignacio Carmona González
