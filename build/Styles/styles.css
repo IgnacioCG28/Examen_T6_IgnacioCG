@@ -1,0 +1,41 @@
+:root {
+    --primary-color: #ffffff;
+    --primary-color-hover: #bababa;
+    --secondary-color: #610000;
+    --tertiary-color: #222;
+    --cuarter-color: #111;
+    --font: "Sophia";
+  }
+  
+  @font-face {
+    font-family: "Sophia";
+    src: url(/Assets/Fonts/sophia_6/Sophia.ttf);
+  }
+  
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-size: 16px;
+    font-family: var(--font), "Times New Roman", Times, serif;
+    margin: 0;
+    background-color: var(--cuarter-color);
+  }
+
+  svg{
+width: 1rem;
+  }
+
+  /* nav bar */
+
+
+  
+ 
